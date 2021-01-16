@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.115:3307/springboot_middleware?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: LY0115..
+  jpa:
+    #    show-sql: true
+    hibernate:
+      ddl-auto: create
+  cloud:
+    zookeeper:
+      connect-string: 192.168.1.115:2181
