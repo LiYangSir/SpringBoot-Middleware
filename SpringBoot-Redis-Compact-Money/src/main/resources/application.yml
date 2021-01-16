@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.1.103:3307/springboot?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    username: root
+    password: LY0115..
+  redis:
+    host: 192.168.1.103
+    port: 6380
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update

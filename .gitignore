@@ -1,0 +1,7 @@
+# Project exclude paths
+/SpringBoot-RabbitMQ-Confirm-Consumer/target/
+/SpringBoot-RabbitMQ-DeadLetterQueue/target/
+/SpringBoot-RabbitMQ-InAction/target/
+/SpringBoot-RabbitMQ-Integration/target/
+/SpringBoot-Redis-Cache-Penetration/target/
+/SpringBoot-Redis-Compact-Money/target/
